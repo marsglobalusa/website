@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="marsBody" cx="38%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#e08a52"/>
+      <stop offset="45%" stop-color="#b1502a"/>
+      <stop offset="80%" stop-color="#7c3818"/>
+      <stop offset="100%" stop-color="#4a220e"/>
+    </radialGradient>
+    <radialGradient id="bg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2b1a2e"/>
+      <stop offset="100%" stop-color="#140b18"/>
+    </radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="url(#bg)" stroke="#cda36a" stroke-width="1"/>
+  <circle cx="32" cy="32" r="15" fill="url(#marsBody)"/>
+  <circle cx="27" cy="27" r="2.3" fill="#7c3818" opacity="0.7"/>
+  <circle cx="37" cy="34" r="1.6" fill="#7c3818" opacity="0.6"/>
+  <circle cx="30" cy="37" r="1.1" fill="#7c3818" opacity="0.6"/>
+  <circle cx="38" cy="27" r="1" fill="#7c3818" opacity="0.5"/>
+</svg>
