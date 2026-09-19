@@ -412,6 +412,16 @@ section{ position:relative; }
   .hero-actions .btn{ width:100%; }
   .cta-inner{ padding:44px 24px; }
   .contact-info, .contact-form{ padding:28px 20px; }
+
+  /* Decluttered mobile header: logo + hamburger only — phone & quote live in the mobile-nav drawer and the floating call button */
+  .header-phone, .header-actions .btn-outline{ display:none; }
+  .header-actions{ gap:10px; }
+  .brand-name{ font-size:1rem; }
+  .brand-tag{ white-space:nowrap; }
+  .brand img{ width:36px; height:36px; }
+}
+@media (max-width: 380px){
+  .brand-tag{ display:none; }
 }
 
 /* Mobile nav drawer */
