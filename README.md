@@ -8,6 +8,7 @@ A single-page site for fiber / coax / Cat5e-Cat6 installation services.
 - `js/main.js` — mobile nav, scroll reveal animations, the animated glowing fiber-optic canvas background, and the contact form submit handler
 - `assets/logo-mark.svg` — a small vector version of the logo (planet + ring) used in the header/footer
 - `assets/logo.jpg` — your original logo photo (not used on the page itself, kept for reference/branding)
+- `assets/photos/` — free stock photos (fiber/network installation work) used in the Gallery and Why Us sections, tinted with a gold/plum overlay to match the site
 
 ## ⚠️ One step required: activate the contact form
 
@@ -41,3 +42,4 @@ copy can be edited directly in that file — search for the text you want to cha
 - The coverage map is a real United States outline (all 50 states) with a marker over Pittsburgh, PA.
 - The glowing background animation automatically turns off for visitors who have "reduce motion" enabled in their OS accessibility settings.
 - Fonts (Cinzel + Jost) load from Google Fonts via CDN — no local font files needed.
+- The photos in `assets/photos/` are from [Pexels](https://www.pexels.com), free for commercial use with no attribution required (Pexels License). If you'd rather use your own job-site photos, just replace the files in that folder, keeping the same file names, or update the `src` paths in `index.html`.
